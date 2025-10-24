@@ -17,7 +17,7 @@ public class LuaManager : MonoBehaviour
         if (!Directory.Exists(LuaPath))
             Directory.CreateDirectory(LuaPath);
 
-        CommandManager.AddCommand("lua", "lua test", LuaCommand);
+        CommandManager.Instance.AddCommand("lua", "lua test", LuaCommand);
         DefaultSubCommand();
     }
 
