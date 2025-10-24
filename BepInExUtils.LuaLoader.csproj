@@ -101,6 +101,8 @@
     <ItemGroup>
         <Content Include=".github\dependabot.yml"/>
         <Content Include=".github\workflows\dependabot-auto-merge.yml"/>
+        <Content Include=".github\workflows\pre-release.yml"/>
+        <Content Include=".github\workflows\release.yml"/>
     </ItemGroup>
 
 </Project>
